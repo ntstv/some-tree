@@ -332,8 +332,8 @@ var testData =  {data:[
 
 ]};
 
-//var tree = new Tree(testData.data);
-//if (!document.body) {
-//    document.body = document.createElement('body');
-//}
-//tree.render(document.body, 0);
+var tree = new Tree(testData.data);
+if (!document.body) {
+    document.body = document.createElement('body');
+}
+tree.render(document.body, 0);

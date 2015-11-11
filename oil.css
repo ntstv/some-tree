@@ -1,28 +1,23 @@
 .b-node {
+    width: 100%;
     position: relative;
-    border-top: dashed #b2b2b2 1px;
-    border-left: dashed #b2b2b2 1px;
     min-height: 30px;
 }
 
 .b-node__title {
     position: relative;
-    width: 100%;
     cursor: pointer;
-    left: -11px;
-    top: -11px;
 }
 
 .b-node__title-text {
     display: inline-block;
     position: relative;
-    width: 300px;
     background: #fff;
     font: 10px sans-serif;
     margin: 0 0 0 5px;
 }
 
-.b-node__title-text:active {
+.b-node__title-text:hover {
     background: #d3d3d3;
 }
 
@@ -62,5 +57,5 @@
 
 .b-node__internal {
     position: relative;
-    padding:  0 0 0 5px;
+    padding:  5px 0 0 10px;
 }
