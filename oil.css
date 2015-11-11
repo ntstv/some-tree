@@ -1,0 +1,19 @@
+.b-node {
+    position: relative;
+    border-bottom: dashed #b2b2b2;
+    border-left: dashed #b2b2b2;
+}
+
+.b-node__title {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    top: -25px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.b-node__title-text {
+    position: relative;
+    font: 10px sans-serif;
+}
